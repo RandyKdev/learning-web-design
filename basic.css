@@ -1,0 +1,86 @@
+html{
+    font-size: 15px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: hsl(0 0% 0% /.75);
+}
+body *, body *::after, body *::before {
+    display: block;
+}
+
+main {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: hsl(0 0% 50% /.3);
+    border-radius: 1rem;
+}
+@media (max-width: 45rem) {
+    main {
+        margin: 0;
+        border-radius: 0; 
+    }
+}
+#header {
+    text-align: center;
+}
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+#header > p {
+    margin: 1rem;
+}
+figure {
+    background-color: white;
+    padding: 1rem;
+}
+figcaption {
+    margin: 1rem;
+}
+#body {
+    padding: 4rem 1rem 2rem 2rem;
+    margin: 0 auto;
+    max-width: 35rem;
+}
+h2 {
+    font-size: 1.2rem;
+    margin: 1rem;
+    text-align: center;
+}
+li {
+    position: relative;
+    margin: 1rem 0;
+    line-height: 1.3rem;
+}
+blockquote {
+    line-height: 1.3rem;
+}
+cite {
+    margin: 1rem 0;
+}
+ main > :last-child{
+    text-align: center;
+    font-size: 1.2rem;
+}
+strong {
+    display: inline-block;
+}
+a {
+    display: inline-block;
+    color: rgba(0, 0, 255, 0.753);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li::before {
+    position: absolute;
+    content: '.';
+    font-size: 3rem;
+    left: -1rem;
+    top: -0.9rem;
+}
