@@ -6,7 +6,7 @@ html{
     padding: 0;
     color: hsl(0 0% 0% /.75);
 }
-body *, body *::after, body *::before {
+main *, main *::after, main *::before {
     display: block;
 }
 
@@ -50,9 +50,12 @@ h2 {
     text-align: center;
 }
 li {
-    position: relative;
+    display: list-item;
     margin: 1rem 0;
     line-height: 1.3rem;
+}
+ul {
+    list-style-type: circle;
 }
 blockquote {
     line-height: 1.3rem;
@@ -75,12 +78,4 @@ a {
 img {
     max-width: 100%;
     height: auto;
-}
-
-li::before {
-    position: absolute;
-    content: '.';
-    font-size: 3rem;
-    left: -1rem;
-    top: -0.9rem;
 }
