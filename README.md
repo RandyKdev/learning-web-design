@@ -6,4 +6,4 @@ Consists of folders and each folder contains an independent project.
 A folder may contain several html and css files for better clarity
 
 # FEEL FREE TO CLONE AND CHECK IT OUT
-(Will add screenshots and some point in the future)
+(Will add screenshots at some point in the future)
