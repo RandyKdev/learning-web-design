@@ -1,0 +1,18 @@
+html {
+
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#body *, #body *::after, #body *::before {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
