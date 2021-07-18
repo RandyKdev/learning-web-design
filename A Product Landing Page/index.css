@@ -44,12 +44,21 @@ html {
     box-sizing: border-box;
 }
 
-#body *, #body *::after, #body *::before {
+body *, body *::after, body *::before {
     display: block;
 }
 
 body {
     background-color: var(--gray-light-5);
+}
+
+ul > li {
+    list-style: none;
+}
+
+a {
+    color: var(--gray-dark-8);
+    text-decoration: none;
 }
 
 header {
@@ -79,15 +88,41 @@ nav {
     display: flex;
 }
 
-ul > li {
-    list-style: none;
-}
-
-a {
-    color: var(--gray-dark-8);
-    text-decoration: none;
-}
-
 #breadcrumb {
-    margin-top: 6rem;
+    margin-top: 3rem;
+    padding: 4rem 2rem;
+    display: grid;
+    place-items: center;
+}
+
+#breadcrumb-header {
+    margin: 1rem 0;
+
+    text-align: center;
+}
+
+
+form {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input[type="email"] {
+    padding: .4em .6em;
+    width: 15rem;
+    border: solid black .1em;
+    background-color: white;
+}
+
+button[type="submit"] {
+    align-self: center;
+    background-color: var(--yellow-dark);
+    padding: .3em 1em;
+    color: black;
+    width: max-content;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
 }
