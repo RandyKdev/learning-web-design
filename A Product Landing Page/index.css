@@ -1,4 +1,4 @@
-html {      
+:root {      
     --green: #47cf73;
     --green-light: #d3ffe1;
     --green-dark: #248c46;
@@ -189,4 +189,23 @@ button[type="submit"] {
     background-color: var(--yellow-dark);
     width: 8rem;
     cursor: pointer;
+}
+
+footer {
+    padding: 1rem;
+    background-color: var(--gray-light-4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#footer-nav {
+    display: flex;
+    gap: 0 1.5rem;
+    padding: .5rem 1rem;
+    color: black;
+}
+
+#footer-copyright {
+    color: gray;
 }
