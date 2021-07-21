@@ -50,6 +50,9 @@ body *, body *::after, body *::before {
 
 body {
     background-color: var(--gray-light-6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 ul > li {
@@ -88,16 +91,20 @@ nav {
     display: flex;
 }
 
-#breadcrumb {
+.container {
+    max-width: 70rem;
+    /* background-color: gray; */
+}
+/* todo: research on how flex constraints its children to expand pass a certain width */
+#search {
     margin-top: 3rem;
-    padding: 4rem 2rem;
+    padding: 4rem 1rem;
     display: grid;
     place-items: center;
 }
 
-#breadcrumb-header {
+#search-header {
     margin: 1rem 0;
-
     text-align: center;
 }
 
