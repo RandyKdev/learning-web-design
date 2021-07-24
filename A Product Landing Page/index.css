@@ -78,6 +78,14 @@ header {
 #header-nav, #footer-nav {
     display: flex;
 }
+@media (max-width: 40rem) {
+    #header-nav {
+        flex-direction: column;
+        align-items: center;
+        height: 5rem;
+    }
+}
+
 nav {
     max-width: 30rem;
     width: 50%;
@@ -92,8 +100,7 @@ nav {
 }
 
 .container {
-    max-width: 70rem;
-    /* background-color: gray; */
+    max-width: 60rem;
 }
 /* todo: research on how flex constraints its children to expand pass a certain width */
 #search {
@@ -134,16 +141,58 @@ button[type="submit"] {
     cursor: pointer;
 }
 
+main {
+    width: 100%;
+}
+
 #features {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    align-items: center;
+    align-items: start;
     margin: 3rem 2rem;
 }
 
 .feature {
-    max-width: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: inherit;
+}
+
+.icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 20%;
+}
+
+i {
+    padding-left: 10%;
+    width: 20%;
+    color: var(--yellow-dark);
+}
+
+.feature-body {
+    width: 80%;
+}
+
+@media (max-width: 37rem) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: 11rem;
+        padding: 1rem 1rem;
+    }
+    #search {
+        margin-top: 7rem;
+    }
+    .icon {
+        display: none;
+    }
+    .feature-body {
+        width: 100%;
+    }
 }
 
 .feature-body b {
@@ -153,15 +202,28 @@ button[type="submit"] {
     font-size: 0.9rem;
 }
 
+iframe {
+    max-width: 30rem;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 2rem auto;
+}
+
 #products {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
+@media (max-width: 50rem) {
+    #products {
+        flex-direction: column;
+    }
+}
 .product {
-    margin: .5rem;
-    width: 23rem;
+    width: 100%;
+    margin: .7rem;
+    max-width: 20rem;
     height: auto;
     border: 1px solid black;
     display: flex;

@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+    />
     <title>A Product Landing Page</title>
 </head>
 <body>
@@ -31,21 +36,23 @@
     <main>
         <ul id="features">
             <li class="feature">
-                <img src="" alt="">
+                <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
                 <article class="feature-body">
                     <h2><b>Premium Materials</b></h2>
                     <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
                 </article>
             </li>
             <li class="feature">
-                <img src="" alt="">
+                <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
                 <article class="feature-body">
                     <h2><b>Fast Shipping</b></h2>
                     <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
                 </article>
             </li>
             <li class="feature">
-                <img src="" alt="">
+                <div class="icon">
+                    <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                  </div>
                 <article class="feature-body">
                     <h2><b>Quality Assurance</b></h2>
                     <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
@@ -54,7 +61,14 @@
         </ul>
     
     <!-- todo: add section for youtube embed video -->
-    
+    <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      
     <section id="products">
         <article class="product">
             <h3 class="product-name">TENOR TROMBONE</h3>
