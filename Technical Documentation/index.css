@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body *, body *::before, body *::after {
+    display: block;
+}
+
+a {
+    display: inline-block;
+}
+
+nav > a {
+    display: block;
+}
+li {
+    display: list-item;
+    margin: 0 4rem;
+    padding: .2rem 1rem .2rem 0;
+    line-height: 1.5rem;
+}
+
+p {
+    padding: .5rem 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+code {
+    margin: .5rem 1rem;
+    padding: .5rem 1rem;
+    background-color: #ccc;
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+header {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: .5rem .5rem;
+}
