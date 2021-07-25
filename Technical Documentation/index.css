@@ -8,36 +8,54 @@ body *, body *::before, body *::after {
     display: block;
 }
 
+main {
+    margin: 2rem 1rem;
+}
+
 a {
     display: inline-block;
 }
 
-nav > a {
-    display: block;
-}
 li {
     display: list-item;
-    margin: 0 4rem;
-    padding: .2rem 1rem .2rem 0;
+    margin: 0 4.5rem;
+    padding: .2rem 1.5rem .2rem 0;
     line-height: 1.5rem;
 }
 
 p {
-    padding: .5rem 1rem;
+    padding: .5rem 1.5rem;
     text-align: justify;
     line-height: 1.5rem;
 }
 
 code {
-    margin: .5rem 1rem;
-    padding: .5rem 1rem;
-    background-color: #ccc;
+    margin: .5rem 1.5rem;
+    padding: .5rem 1.5rem;
+    background-color: #E5E4E2;
     font-style: italic;
     line-height: 1.5rem;
 }
 
 header {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     padding: .5rem .5rem;
+}
+
+nav > header {
+    margin: 0 auto;
+    width: max-content;
+    /* color: white; */
+}
+nav > div {
+    height: 20rem;
+    overflow: scroll;
+}
+
+nav > div > a {
+    display: block;
+    padding: 1rem 2rem;
+    border-top: 1px solid black;
+    /* background-color: gray; */
 }
