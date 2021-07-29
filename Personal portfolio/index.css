@@ -14,3 +14,48 @@
 body *, body *::after, body *::before {
     display: block;
 }
+
+header {
+    position: fixed;
+    inset: 0;
+    background-color: var(--red);
+    color: var(--white);
+    height: 4.5rem;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+header > nav {
+    height: inherit;
+}
+
+header > nav > ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: blue; */
+}
+
+header > nav > ul > li {
+    height: 100%;
+    /* background-color: blue; */
+}
+
+header > nav > ul > li > a {
+    display: inline-block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 1.5rem;
+    color: var(--white);
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+header > nav > ul > li > a:hover {
+    background-color: var(--blue);
+}
