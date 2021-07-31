@@ -72,11 +72,13 @@ header a:hover {
     margin-top: -5.5rem;
     padding: 1rem 1rem .5rem 1rem;
     color: white;
-    font-size: 4rem;
+    text-align: center;
+    font-size: 3.5rem;
 }
 
 #welcome-section p {
     color: var(--red);
     font-size: 1.4rem;
+    text-align: center;
     padding: 0 1rem 1rem 1rem;
 }
