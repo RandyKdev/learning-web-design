@@ -23,6 +23,7 @@ header {
     height: 4.5rem;
     padding: 0 1rem;
     font-size: 1.3rem;
+    z-index: 5;
 }
 
 header nav {
@@ -81,4 +82,113 @@ header a:hover {
     font-size: 1.4rem;
     text-align: center;
     padding: 0 1rem 1rem 1rem;
+}
+
+#projects {
+    background-color: var(--blue);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#projects h2 {
+    margin: 1rem auto;
+    color: var(--white);
+    font-size: 2.2rem;
+    max-width: max-content;
+    position: relative;
+}
+
+#projects h2::before {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    content: "";
+    height: 2px;
+    /* width: 100%; */
+    background-color: currentColor;
+}
+
+#projects div {
+    margin: 3rem 1rem;
+}
+
+#projects ul {
+    /* width: 100%; */
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+#projects li {
+    background-color: var(--gray);
+    width: 100%;
+}
+
+#projects figcaption {
+    padding: 1.5rem 1rem;
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+}
+
+#projects a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#projects img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+#projects figcaption::before {
+    content: "<";
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 300ms;
+    color: var(--red);
+}
+
+#projects figcaption::after {
+    content: "/>";
+    position: absolute;
+    right: -.4em;
+    bottom: 1.2em;
+    opacity: 0;
+    color: var(--red);
+    transition: opacity 300ms;
+}
+
+#projects a:hover figcaption::before, #projects a:hover figcaption::after {
+    opacity: 1;
+}
+
+#projects > a {
+    background-color: var(--gray);
+    width: max-content;
+    padding: 1rem 2.5rem 1rem 1rem;
+    margin: 1rem auto;
+    position: relative;
+    transition: background-color 700ms;
+}
+
+#projects > a::after {
+    content: ">";
+    position: absolute;
+    right: .8rem;
+    font-size: 1.4rem;
+    bottom: 1rem;
+    transition: transform 700ms;
+}
+
+#projects > a:hover {
+    background-color: var(--red);
+}
+#projects > a:hover::after{
+    transform: translateX(5px);
 }
