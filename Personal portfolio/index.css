@@ -108,7 +108,7 @@ header a:hover {
 }
 
 #projects div {
-    margin: 3rem 1rem;
+    margin: 3rem 0;
 }
 
 #projects ul {
@@ -120,7 +120,13 @@ header a:hover {
 
 #projects li {
     background-color: var(--gray);
-    width: clamp(320px, 100%, 350px);
+    width: 100%;
+}
+
+@media (min-width: 719px) {
+    #projects li {
+        width: clamp(320px, 40vw, 400px);
+    }
 }
 
 #projects figcaption {
