@@ -194,7 +194,7 @@ header a:hover {
 #contact-section {
     background-color: var(--gray);
     color: var(--white);
-    padding-block: 5rem;
+    padding-block: 7rem;
     padding-inline: 1rem;
     display: flex;
     flex-direction: column;
@@ -202,7 +202,7 @@ header a:hover {
 }
 
 #contact-section h1 {
-    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
     text-align: center;
 }
 
@@ -223,8 +223,13 @@ header a:hover {
     display: flex;
     color: var(--white);
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     align-items: center;
+    transition: transform 400ms;
+}
+
+#contact-section a:hover {
+    transform: translateY(5px);
 }
 
 #contact-section i {
