@@ -120,7 +120,7 @@ header a:hover {
 
 #projects li {
     background-color: var(--gray);
-    width: 100%;
+    width: clamp(320px, 100%, 350px);
 }
 
 #projects figcaption {
@@ -187,6 +187,6 @@ header a:hover {
     background-color: var(--red);
 }
 
-#projects > a:hover::after{
+#projects > a:hover::after {
     transform: translateX(5px);
 }
