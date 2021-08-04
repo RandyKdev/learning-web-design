@@ -229,7 +229,7 @@ header a:hover {
     display: flex;
     color: var(--white);
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
     align-items: center;
     transition: transform 400ms;
 }
@@ -241,4 +241,38 @@ header a:hover {
 #contact-section i {
     margin-inline-end: .3em;
     color: var(--white);
+}
+
+footer {
+    background-color: var(--gray);
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    border-block-start: var(--red) 5px solid;
+    text-align: center;
+    color: var(--white);
+}
+
+@media (min-width: 700px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
+
+footer > * {
+    margin-block: 2rem;
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer div * {
+    display:  inline-block;
+}
+
+footer i {
+    vertical-align: middle;
 }
