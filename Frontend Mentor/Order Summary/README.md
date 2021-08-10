@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Image](/screenshots/screenshot.png)
+![Image](https://github.com/RandyKdev/learning-web-design/blob/main/Frontend%20Mentor/Order%20Summary/screenshots/screenshot.png?raw=true)
 
 ### Links
 
