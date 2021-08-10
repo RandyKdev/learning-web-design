@@ -45,7 +45,6 @@ main {
     padding-block-end: 1rem;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    /* background-color: gray; */
 }
 
 .card > * {
@@ -100,7 +99,6 @@ main {
     font-size: .88rem;
     font-weight: 900;
     color: var(--clr-main);
-    /* margin-block-end: -.2rem; */
 }
 
 .card__details__price {
@@ -108,7 +106,6 @@ main {
     grid-row: 2 / -1;
     width: 100%;
     font-size: .88rem;
-    /* margin-block-start: -.2rem; */
     color: var(--clr-main-desaturated);
 }
 
