@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://randykdev.github.io/Frontend%20Mentor/Order%20Summary](https://randykdev.github.io/Frontend%20Mentor/Order%20Summary)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-site-using-css-grid-vXtF1x7UQ](https://www.frontendmentor.io/solutions/mobile-first-site-using-css-grid-vXtF1x7UQ)
+- Live Site URL: [https://randykdev.github.io/learning-web-design/Frontend%20Mentor/Order%20Summary/](https://randykdev.github.io/learning-web-design/Frontend%20Mentor/Order%20Summary/)
 
 ## My process
 
