@@ -43,7 +43,6 @@ main {
     width: min(100%, 22rem);
     border-radius: 1rem;
     margin: 1rem;
-    padding-block-end: 1rem;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
@@ -57,11 +56,14 @@ main {
 }
 
 .card__cont {
-    padding-inline: clamp(1rem, 2vw, 1.5rem);
+    padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.card__cont > * {
+    margin-block-start: 1rem;
 }
 
 .card__title {
-    margin-block: 2rem 1rem;
     font-size: 1.6rem;
     font-weight: 900;
     color: var(--clr-main);
@@ -70,20 +72,19 @@ main {
 .card__desc {
     font-weight: 500;
     line-height: 1.6rem;
-    margin-block: 0 1rem;
     color: var(--clr-main-desaturated);
 }
 
 .card__details {
+    margin-block-start: 2rem;
+    padding: 1.2rem 1rem;
     background-color: var(--clr-main-very-pale);
     border-radius: .5rem;
-    margin-block: 2rem 1rem;
-    padding: 1.2rem 1rem;
     display: grid;
-    place-items: center;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: max-content 1fr max-content;
     text-align: left;
+    font-size: .88rem;
 }
 
 .card__details__icon {
@@ -96,8 +97,6 @@ main {
 .card__details__plan {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    width: 100%;
-    font-size: .88rem;
     font-weight: 900;
     color: var(--clr-main);
 }
@@ -105,8 +104,6 @@ main {
 .card__details__price {
     grid-column: 2 / 3;
     grid-row: 2 / -1;
-    width: 100%;
-    font-size: .88rem;
     color: var(--clr-main-desaturated);
 }
 
@@ -117,6 +114,7 @@ main {
     margin-inline-start: 1rem;
     cursor: pointer;
     color: var(--clr-main-bright);
+    background-color: transparent;
     font-weight: 700;
     text-decoration: underline;
 }
@@ -124,22 +122,21 @@ main {
 .card__pay {
     background-color: var(--clr-main-bright);
     color: white;
-    padding: 1rem;
-    border-radius: .5rem;
-    text-decoration: none;
-    font-weight: 900;
-    margin-block: 0 .5rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .card__cancel {
-    margin-block: .5rem 0;
-    width: 100%;
-    border: 0;
-    padding: 1rem;
     background-color: transparent;
     color: var(--clr-main-desaturated);
-    font-size: 1.2rem;
-    font-weight: 500;
+}
+
+.btn {
+    padding: 1rem;
+    font-size: .9rem;
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+    border-radius: .5rem;
+    border: 0;
     cursor: pointer;
 }
