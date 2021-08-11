@@ -24,7 +24,6 @@ body {
     background-size: 100vw 40vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-height: 100vh;
 }
 
 @media (min-width: 1440px) {
@@ -34,9 +33,9 @@ body {
 }
 
 main {
+    min-height: 100vh;
     display: grid;
     place-items: center;
-    padding: 1rem;
 }
 
 .card {
