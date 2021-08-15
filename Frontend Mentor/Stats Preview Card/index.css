@@ -101,3 +101,21 @@ body {
     margin-block-start: .3rem;
     letter-spacing: .1rem;
 }
+
+@media (min-width: 500px) {
+    .card {
+        width: clamp(50rem, 5vw, 10rem);
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .card__stats {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card__img__cont {
+        width: 100%;
+        margin-inline-start: 5rem;
+    }
+}
