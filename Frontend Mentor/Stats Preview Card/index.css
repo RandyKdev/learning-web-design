@@ -69,31 +69,31 @@ body {
     margin-block-start: 1rem;
 }
 
-.card__content__heading {
+.card__heading {
     font-weight: 700;
     font-size: 1.8rem;
 }
 
-.card__content__heading--highlight {
+.card__heading--highlight {
     display: inline-block;
     color: var(--clr-accent);
 }
 
-.card__content__caption {
+.card__caption {
     color: var(--clr-white-700);
     font-family: 'Lexend Deca';
     line-height: 1.9rem;
 }
 
-.card__content__stats {
+.card__stats {
     margin-block: 1.5rem;
 }
 
-.card__content__stats > * {
+.card__stats > * {
     margin-block-start: 2rem;
 }
 
-.card__content__stat__heading {
+.card__stat__heading {
     color: var(--clr-white-500);
     text-transform: uppercase;
     font-weight: var(--font-weight-bold);
