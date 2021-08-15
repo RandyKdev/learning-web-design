@@ -43,10 +43,22 @@ body {
     box-shadow: 0 0 10px var(--clr-card-background);
 }
 
+.card__img__cont {
+    position: relative;
+}
+
 .card__img {
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.card__img__cont::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--clr-accent);
+    opacity: .4;
 }
 
 .card__content {
