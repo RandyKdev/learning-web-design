@@ -16,6 +16,7 @@
     font-family: 'Inter', 'Lexend Deca', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    color: var(--clr-white-900);
 }
 
 *, *::before, *::after {
@@ -26,4 +27,61 @@
 
 body *, body *::before, body *::after {
     display: block;
+}
+
+body {
+    background-color: var(--clr-body-background);
+    padding: 1rem;
+}
+
+.card {
+    background-color: var(--clr-card-background);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card__img {
+    width: 100%;
+    height: 20rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card__content {
+    padding: 2rem;
+}
+
+.card__content > * {
+    margin-block-start: 1rem;
+}
+
+.card__content__heading {
+    font-weight: 700;
+}
+
+.card__content__heading--highlight {
+    display: inline-block;
+    color: var(--clr-accent);
+}
+
+.card__content__caption {
+    color: var(--clr-white-700);
+    font-family: 'Lexend Deca';
+    line-height: 1.9rem;
+}
+
+.card__content__stats {
+    margin-block: 1rem;
+}
+
+.card__content__stats > * {
+    margin-block-start: 2rem;
+}
+
+.card__content__stat__heading {
+    color: var(--clr-white-500);
+    text-transform: uppercase;
+    font-size: .7rem;
+    margin-block-start: .3rem;
+    letter-spacing: .1rem;
 }
