@@ -39,39 +39,36 @@ body {
 .card {
     background-color: var(--clr-card-background);
     border-radius: 5px;
+    background-clip: content-box;
     text-align: center;
     box-shadow: 0 0 10px var(--clr-card-background);
 }
 
-.card__img__cont {
-    position: relative;
-}
-
 .card__img {
-    width: 100%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    position: relative;
+    background-image: url(./images/image-header-mobile.jpg);
+    background-size: cover;
+    height: 16rem;
+    border-radius: 5px 5px 0 0;
 }
 
-.card__img__cont::after {
+.card__img::after {
     content: "";
     position: absolute;
     inset: 0;
     background-color: var(--clr-accent);
     opacity: .4;
+    border-radius: 5px 5px 0 0;
 }
 
 .card__content {
-    padding: 2rem;
-}
-
-.card__content > * {
-    margin-block-start: 1rem;
+    padding: 2.2rem;
 }
 
 .card__heading {
     font-weight: 700;
     font-size: 1.8rem;
+    margin-block: 1rem;
 }
 
 .card__heading--highlight {
@@ -82,40 +79,69 @@ body {
 .card__caption {
     color: var(--clr-white-700);
     font-family: 'Lexend Deca';
-    line-height: 1.9rem;
+    line-height: 1.7rem;
+    margin-block: 1rem;
 }
 
 .card__stats {
-    margin-block: 1.5rem;
+    margin-block: 1.5rem 0;
 }
 
-.card__stats > * {
-    margin-block-start: 2rem;
+.card__stat {
+    margin-block-start: 2.5rem;
 }
 
 .card__stat__heading {
     color: var(--clr-white-500);
     text-transform: uppercase;
     font-weight: var(--font-weight-bold);
-    font-size: .7rem;
-    margin-block-start: .3rem;
+    font-size: .8rem;
+
+    margin-block-start: .7rem; 
+    /* margin-block-start: .3rem; */
     letter-spacing: .1rem;
 }
 
 @media (min-width: 500px) {
     .card {
-        width: clamp(50rem, 5vw, 10rem);
+        width: 75rem;
         display: flex;
         flex-direction: row-reverse;
+        text-align: left;
+    }
+
+    .card__img {
+        width: 50%;
+        height: auto;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .card__img::after {
+        border-radius: 0 5px 5px 0;
+    }
+
+    .card__content {
+        width: 50%;
+        padding: 5rem;
+        padding-right: 11.5rem;
+    }
+
+    .card__heading {
+        font-size: 2rem;
+        line-height: 2.9rem;
+        margin-block: 1rem;
+    }
+
+    .card__caption {
+        line-height: 1.6rem;
+        margin-block: 1rem;
+        font-size: .85rem;
     }
 
     .card__stats {
         display: flex;
         justify-content: space-between;
+        margin-block: 2.5rem 0;
     }
 
-    .card__img__cont {
-        width: 100%;
-        margin-inline-start: 5rem;
-    }
 }
