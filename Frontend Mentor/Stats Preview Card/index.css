@@ -112,6 +112,7 @@ body {
     }
 
     .card__img {
+        background-image: url(./images/image-header-desktop.jpg);
         width: 50%;
         height: auto;
         border-radius: 0 5px 5px 0;
