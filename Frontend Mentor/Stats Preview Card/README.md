@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-site-using-css-grid-vXtF1x7UQ](https://www.frontendmentor.io/solutions/mobile-first-site-using-css-grid-vXtF1x7UQ)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-design-using-flex-box-pPrI7PSb-](https://www.frontendmentor.io/solutions/mobile-first-design-using-flex-box-pPrI7PSb-)
 - Live Site URL: [https://randykdev.github.io/learning-web-design/Frontend%20Mentor/Stats%20Preview%20Card/](https://randykdev.github.io/learning-web-design/Frontend%20Mentor/Stats%20Preview%20Card/)
 
 ## My process
