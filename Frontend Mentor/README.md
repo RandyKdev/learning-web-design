@@ -1,5 +1,5 @@
 # Frontend Mentor
-All projects here are taken from the [Frontend Mentor](frontendmentor.io)'s site.
+All projects here are taken from the [Frontend Mentor](https://www.frontendmentor.io)'s site.
 
 # Folder Struture
 Consists of folders and each folder contains an independent project/challenge.
