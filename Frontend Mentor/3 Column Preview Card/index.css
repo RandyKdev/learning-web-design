@@ -1,3 +1,21 @@
+/* Importing font families: Lexend Deca and Big Shoulders display */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --clr-sedans: hsl(31, 77%, 52%);
+    --clr-suvs: hsl(184, 100%, 22%);
+    --clr-luxury: hsl(179, 100%, 13%);
+    --clr-neutral-700: hsla(0, 0%, 100%, 0.75);
+    --clr-neutral-900: hsl(0, 0%, 95%);
+    --ff-body: 'Lexend Deca';
+    --fw-body: 400;
+    --ff-heading: 'Big Shoulders Display';
+    --fw-heading: 700;
+    
+    font-size: 15px;
+    font-family: 'Lexend Deca', 'Big Shoulders Display', sans-serif;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     padding: 0;
