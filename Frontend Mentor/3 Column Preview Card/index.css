@@ -28,7 +28,7 @@ body *, body *::after, body *::before {
 
 body {
     background-color: var(--clr-neutral-900);
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 main {
@@ -38,46 +38,54 @@ main {
 }
 
 .card {
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .card__section {
-    padding: 2rem;
+    padding: 3rem;
+}
+
+.card__section > * + * {
+    margin-block-start: 1.5rem;
+}
+
+.card__section__img {
+    width: 3.5rem;
 }
 
 .card__section__heading {
     font-family: var(--ff-heading);
     font-weight: var(--fw-heading);
+    font-size: 2.5rem;
     color: var(--clr-neutral-900);
-    margin-block-start: 1rem;
     text-transform: uppercase;
 }
 
 .card__section__desc {
     color: var(--clr-neutral-700);
-    line-height: 1.4rem;
-    font-size: 0.9rem;
-    margin-block-start: 1rem;
+    line-height: 1.7rem;
 }
 
 .card__section__action {
     background-color: var(--clr-neutral-900);
-    font-size: 0.95rem;
-    padding: 1rem 1.3rem;
-    margin-block-start: 1rem;
-    border-radius: 15px;
+    color: currentColor;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
     text-decoration: none;
     width: max-content;
 }
 
 .card__section--sedans {
     background-color: var(--clr-sedans);
+    color: var(--clr-sedans);
 }
 
 .card__section--suvs {
     background-color: var(--clr-suvs);
+    color: var(--clr-suvs);
 }
 
 .card__section--luxury {
     background-color: var(--clr-luxury);
+    color: var(--clr-luxury);
 }
