@@ -93,13 +93,13 @@ main {
     color: var(--clr-luxury);
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 960px) {
     .card {
-        width: min(100%, 60rem);
+        width: 60rem;
         display: flex;
     }
 
     .card__section__action {
-        margin-block-start: 6rem;
+        margin-block: 6rem .5rem;
     }
 }
