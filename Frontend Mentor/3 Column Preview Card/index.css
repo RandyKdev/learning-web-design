@@ -40,6 +40,7 @@ main {
 .card {
     border-radius: 10px;
     overflow: hidden;
+    width: min(100%, 25rem);
 }
 
 .card__section {
@@ -90,4 +91,11 @@ main {
 .card__section--luxury {
     background-color: var(--clr-luxury);
     color: var(--clr-luxury);
+}
+
+@media (min-width: 50rem) {
+    .card {
+        width: min(100%, 60rem);
+        display: flex;
+    }
 }
