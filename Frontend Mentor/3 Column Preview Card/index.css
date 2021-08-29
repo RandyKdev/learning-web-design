@@ -98,4 +98,8 @@ main {
         width: min(100%, 60rem);
         display: flex;
     }
+
+    .card__section__action {
+        margin-block-start: 6rem;
+    }
 }
