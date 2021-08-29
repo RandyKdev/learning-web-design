@@ -38,6 +38,8 @@ main {
 }
 
 .card {
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .card__section {
@@ -58,6 +60,7 @@ main {
     font-size: 2.5rem;
     color: var(--clr-neutral-900);
     text-transform: uppercase;
+    line-height: 1.7;
 }
 
 .card__section__desc {
@@ -71,6 +74,7 @@ main {
     border-radius: 50px;
     text-decoration: none;
     width: max-content;
+    color: inherit;
 }
 
 .card__section--sedans {
