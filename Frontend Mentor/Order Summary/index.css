@@ -24,6 +24,7 @@ body {
     background-size: 100vw 40vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    padding: 1.5rem;
 }
 
 @media (min-width: 1440px) {
@@ -42,6 +43,7 @@ main {
     background: white;
     width: min(100%, 25rem);
     border-radius: 1rem;
+    overflow: hidden;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
@@ -49,8 +51,6 @@ main {
 .card__image {
     width: 100%;
     height: clamp(10rem, 35vw, 12rem);
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 
 .card__cont {
