@@ -54,6 +54,7 @@ Mobile Screenshot (375 x 1502)
 ### What I learned
 
 - Using Outlines instead of Borders because outlines don't contribute or disturb the flow of the document. Its only for visual effects and does not affect the size of the element.
+- Using box shadows instead of Outlines so as to get the rounded nature of the buttons as outlines couldn't be rounded
 - Using the css style, `overflow: hidden;` in cases where the parent's border radius should affect all children 
 
 ### Continued development
