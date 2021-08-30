@@ -39,7 +39,7 @@ Mobile Screenshot (375 x 1502)
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-site-using-css-grid-vXtF1x7UQ](https://www.frontendmentor.io/solutions/mobile-first-site-using-css-grid-vXtF1x7UQ)
-- Live Site URL: [https://randykdev.github.io/learning-web-design/tree/main/Frontend%20Mentor/3%20Column%20Preview%20Card](https://randykdev.github.io/learning-web-design/tree/main/Frontend%20Mentor/3%20Column%20Preview%20Card/)
+- Live Site URL: [https://randykdev.github.io/learning-web-design/Frontend%20Mentor/3%20Column%20Preview%20Card/](https://randykdev.github.io/learning-web-design/Frontend%20Mentor/3%20Column%20Preview%20Card/)
 
 ## My process
 
