@@ -55,12 +55,30 @@ Mobile Screenshot (375 x 1502)
 
 - Using Outlines instead of Borders because outlines don't contribute or disturb the flow of the document. Its only for visual effects and does not affect the size of the element.
 - Using box shadows instead of Outlines so as to get the rounded nature of the buttons as outlines couldn't be rounded
-- Hiding contents visually, but can accessed by screen readers for accessibility purposes
 - Using the css style, `overflow: hidden;` in cases where the parent's border radius should affect all children 
+- Hiding contents visually, but can accessed by screen readers for accessibility purposes
+
+```html
+<h1 class="sr-only">Page contains a 3 Column Preview Card Component</h1>
+```
+```css
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+```
 
 ### Continued development
 
-I would dive deeper into Sematic HTML  and CSS Best Practices
+I would dive deeper into Sematic HTML and CSS Best Practices
+
+### Useful resources
+
+- [Improved sr-only](https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034) - This showed me how to implement an `sr-only` functionality
 
 ## Author
 
