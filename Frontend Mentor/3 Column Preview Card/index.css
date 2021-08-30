@@ -81,7 +81,7 @@ main {
 .card__section__action:hover {
     background-color: inherit;
     color: var(--clr-neutral-900);
-    outline: .2em solid currentColor;
+    box-shadow: 0 0 0 .2em currentColor;
 }
 
 .card__section--sedans {
