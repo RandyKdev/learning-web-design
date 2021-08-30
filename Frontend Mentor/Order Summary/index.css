@@ -24,7 +24,6 @@ body {
     background-size: 100vw 40vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding: 1.5rem;
 }
 
 @media (min-width: 1440px) {
@@ -34,6 +33,7 @@ body {
 }
 
 main {
+    padding: 1.5rem;
     min-height: 100vh;
     display: grid;
     place-items: center;
