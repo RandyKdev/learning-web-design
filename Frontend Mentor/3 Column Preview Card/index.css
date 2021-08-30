@@ -43,6 +43,15 @@ main {
     width: min(100%, 25rem);
 }
 
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .card__section {
     padding: 3rem;
 }
