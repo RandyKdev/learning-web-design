@@ -78,6 +78,12 @@ main {
     color: inherit;
 }
 
+.card__section__action:hover {
+    background-color: inherit;
+    color: var(--clr-neutral-900);
+    outline: .2em solid currentColor;
+}
+
 .card__section--sedans {
     background-color: var(--clr-sedans);
     color: var(--clr-sedans);
