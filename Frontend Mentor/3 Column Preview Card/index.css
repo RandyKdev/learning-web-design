@@ -60,11 +60,11 @@ main {
     margin-block-start: 1.5rem;
 }
 
-.card__section__img {
+.card__img {
     width: 3.5rem;
 }
 
-.card__section__heading {
+.card__heading {
     font-family: var(--ff-heading);
     font-weight: var(--fw-heading);
     font-size: 2.5rem;
@@ -73,12 +73,12 @@ main {
     line-height: 1.7;
 }
 
-.card__section__desc {
+.card__desc {
     color: var(--clr-neutral-700);
     line-height: 1.7rem;
 }
 
-.card__section__action {
+.card__action {
     background-color: var(--clr-neutral-900);
     padding: 1rem 2.5rem;
     border-radius: 50px;
@@ -87,7 +87,7 @@ main {
     color: inherit;
 }
 
-.card__section__action:hover, .card__section__action:focus-visible {
+.card__action:hover, .card__action:focus-visible {
     background-color: inherit;
     color: var(--clr-neutral-900);
     box-shadow: 0 0 0 .2em currentColor;
@@ -114,7 +114,7 @@ main {
         display: flex;
     }
 
-    .card__section__action {
+    .card__action {
         margin-block: 6rem .5rem;
     }
 }
