@@ -87,7 +87,7 @@ main {
     color: inherit;
 }
 
-.card__section__action:hover {
+.card__section__action:hover, .card__section__action:focus-visible {
     background-color: inherit;
     color: var(--clr-neutral-900);
     box-shadow: 0 0 0 .2em currentColor;
