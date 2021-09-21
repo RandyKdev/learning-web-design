@@ -10,6 +10,7 @@ body *, body *::before, body *::after {
 
 body {
     padding: 1.5rem;
+    background-color: blue;
 }
 
 main {
@@ -22,6 +23,7 @@ main {
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
+    background-color: white;
 }
 
 .card__header {
@@ -30,7 +32,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-block-end: 3rem;
+    margin-block-end: 4rem;
     height: 8rem;
 }
 
@@ -46,4 +48,25 @@ main {
     position: absolute;
     bottom: -3rem;
     left: calc(50% - 3rem);
+}
+
+.card__horiz {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: .4rem;
+    margin: .5rem;
+}
+
+.card__location {
+    text-align: center;
+    margin: .5rem;
+}
+
+.card__stats {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    text-align: center;
+    margin: 1.5rem 1rem;
 }
