@@ -33,7 +33,7 @@ main {
     background-size: cover;
     position: relative;
     margin-block-end: 4rem;
-    height: 8rem;
+    height: 9rem;
 }
 
 .card__header::after {
@@ -54,19 +54,48 @@ main {
     display: flex;
     align-items: baseline;
     justify-content: center;
-    gap: .4rem;
+    gap: .5rem;
     margin: .5rem;
+    margin-block-start: 4.5rem;
+    opacity: .8;
+}
+
+.card__name {
+    font-weight: 600;
 }
 
 .card__location {
     text-align: center;
     margin: .5rem;
+    font-size: .8rem;
+    opacity: .8;
+    margin-block-end: 1.5rem;
 }
+
 
 .card__stats {
     display: flex;
     gap: 1rem;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
-    margin: 1.5rem 1rem;
+    padding: 1.5rem 2rem;
+    margin-block-start: 1rem;
+    border-top: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.card__stat {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    opacity: .8;
+}
+
+.card__amt {
+    font-weight: bold;
+}
+
+.card__title {
+    font-size: 0.55rem;
+    letter-spacing: .1rem;
 }
