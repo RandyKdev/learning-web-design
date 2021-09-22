@@ -1,3 +1,9 @@
+:root {
+    /*
+    For initial values and variables
+    */
+}
+
 *, *::after, *::before {
     box-sizing: border-box;
     padding: 0;
@@ -24,6 +30,7 @@ main {
     border-radius: 15px;
     overflow: hidden;
     background-color: white;
+    box-shadow: 0 0 5px 1px #cccccc, 0 0 15px 5px #6b6b6b;
 }
 
 .card__header {
