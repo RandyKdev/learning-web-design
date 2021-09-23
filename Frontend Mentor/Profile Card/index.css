@@ -1,7 +1,11 @@
 :root {
-    /*
-    For initial values and variables
-    */
+    --clr-primary-300: hsl(185, 75%, 39%);
+    --clr-primary-900: hsl(229, 23%, 23%);
+    --clr-primary-500: hsl(227, 10%, 46%);
+    --clr-neutral: hsl(0, 0%, 59%);
+    --fs: 18px;
+
+    font-size: var(--fs);
 }
 
 *, *::after, *::before {
