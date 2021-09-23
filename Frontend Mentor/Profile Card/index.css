@@ -25,7 +25,7 @@ body *, body *::before, body *::after {
 
 body {
     padding: 1.5rem;
-    background-color: blue;
+    background-color: var(--clr-primary-300);
 }
 
 main {
@@ -39,11 +39,11 @@ main {
     border-radius: 15px;
     overflow: hidden;
     background-color: white;
-    box-shadow: 0 0 5px 1px #cccccc, 0 0 15px 5px #6b6b6b;
+    box-shadow: 0 0 10px 1px #2929290a, 0 0 15px 5px #3d3d3d04;
 }
 
 .card__header {
-    background-image: url(https://unsplash.it/500);
+    background-image: url(./images/bg-pattern-card.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ main {
 
 .card__header::after {
     content: "";
-    background-image: url(https://unsplash.it/100);
+    background-image: url(./images/image-victor.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 0 6px white;
@@ -73,18 +73,22 @@ main {
     gap: .5rem;
     margin: .5rem;
     margin-block-start: 4.5rem;
-    opacity: .8;
 }
 
 .card__name {
-    font-weight: 600;
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary-900);
+}
+
+.card__num {
+    color: var(--clr-primary-500);
 }
 
 .card__location {
     text-align: center;
     margin: .5rem;
     font-size: .8rem;
-    opacity: .8;
+    color: var(--clr-primary-500);
     margin-block-end: 1.5rem;
 }
 
@@ -97,21 +101,22 @@ main {
     text-align: center;
     padding: 1.5rem 2rem;
     margin-block-start: 1rem;
-    border-top: solid 1px rgba(0, 0, 0, 0.2);
+    border-top: solid .1px var(--clr-neutral);
 }
 
 .card__stat {
     display: flex;
     flex-direction: column;
     gap: .3rem;
-    opacity: .8;
 }
 
 .card__amt {
-    font-weight: bold;
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary-900);
 }
 
 .card__title {
     font-size: 0.55rem;
     letter-spacing: .1rem;
+    color: var(--clr-neutral);
 }
