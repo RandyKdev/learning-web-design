@@ -4,8 +4,13 @@
     --clr-primary-500: hsl(227, 10%, 46%);
     --clr-neutral: hsl(0, 0%, 59%);
     --fs: 18px;
+    --fw-normal: 400; 
+    --fw-bold: 700; 
 
+    /* Todo: Add font Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans) */
+    
     font-size: var(--fs);
+    font-weight: var(--fw-normal);
 }
 
 *, *::after, *::before {
