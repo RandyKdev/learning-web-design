@@ -26,6 +26,11 @@ body *, body *::before, body *::after {
 body {
     padding: 1.5rem;
     background-color: var(--clr-primary-300);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-size: 100vw 100vh, 100vw 100vh;
+    background-attachment: fixed, fixed;
+    background-repeat: no-repeat, no-repeat;
+    background-position: -50vw -50vh, 50vw 50vh;
 }
 
 main {
