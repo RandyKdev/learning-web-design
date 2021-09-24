@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 :root {
     --clr-primary-300: hsl(185, 75%, 39%);
     --clr-primary-900: hsl(229, 23%, 23%);
@@ -6,11 +8,9 @@
     --fs: 18px;
     --fw-normal: 400; 
     --fw-bold: 700; 
-
-    /* Todo: Add font Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans) */
-    
     font-size: var(--fs);
     font-weight: var(--fw-normal);
+    font-family: 'Kumbh Sans', sans-serif, serif;
 }
 
 *, *::after, *::before {
@@ -49,7 +49,7 @@ main {
     background-size: cover;
     position: relative;
     margin-block-end: 4rem;
-    height: 9rem;
+    height: 8rem;
 }
 
 .card__header::after {
@@ -58,12 +58,12 @@ main {
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 0 6px white;
-    width: 6rem;
+    width: 5.5rem;
     aspect-ratio: 1;
     border-radius: 50%;
     position: absolute;
     bottom: -3rem;
-    left: calc(50% - 3rem);
+    left: calc(50% - 5.5rem / 2);
 }
 
 .card__horiz {
@@ -100,8 +100,8 @@ main {
     align-items: center;
     text-align: center;
     padding: 1.5rem 2rem;
-    margin-block-start: 1rem;
-    border-top: solid .1px var(--clr-neutral);
+    margin-block-start: .5rem;
+    border-top: solid 1px hsla(0, 0%, 59%, 0.2);
 }
 
 .card__stat {
