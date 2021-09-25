@@ -49,26 +49,27 @@ main {
 
 .card__header {
     background-image: url(./images/bg-pattern-card.svg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 75%;
     position: relative;
-    margin-block-end: 4rem;
-    height: 8rem;
+    height: 10rem;
 }
 
 .card__header::after {
     content: "";
+    position: absolute;
+    margin-inline: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url(./images/image-victor.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 0 6px white;
-    width: 5.5rem;
+    width: 5rem;
     aspect-ratio: 1;
     border-radius: 50%;
-    position: absolute;
-    bottom: -3rem;
-    left: calc(50% - 5.5rem / 2);
 }
 
 .card__horiz {
@@ -77,7 +78,7 @@ main {
     justify-content: center;
     gap: .5rem;
     margin: .5rem;
-    margin-block-start: 4.5rem;
+    margin-block: 1.5rem .25rem;
 }
 
 .card__name {
@@ -94,7 +95,7 @@ main {
     margin: .5rem;
     font-size: .8rem;
     color: var(--clr-primary-500);
-    margin-block-end: 1.5rem;
+    margin-block: .25rem 1.25rem;
 }
 
 
@@ -104,8 +105,8 @@ main {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: 1.5rem 2rem;
-    margin-block-start: .5rem;
+    padding: 1.25rem 2rem;
+    margin-block: 1.25rem 0;
     border-top: solid 1px hsla(0, 0%, 59%, 0.2);
 }
 
@@ -123,5 +124,5 @@ main {
 .card__title {
     font-size: 0.55rem;
     letter-spacing: .1rem;
-    color: var(--clr-neutral);
+    color: var(--clr-primary-500);
 }
