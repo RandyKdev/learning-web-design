@@ -24,7 +24,6 @@ body *, body *::before, body *::after {
 }
 
 body {
-    padding: 1.5rem;
     background-color: var(--clr-primary-300);
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-size: 100vw 70vh, 100vw 100vh;
@@ -37,10 +36,11 @@ main {
     min-height: 100vh;
     display: grid;
     place-items: center;
+    padding: 1.5rem;
 }
 
 .card {
-    width: 100%;
+    width: min(100%, 20rem);
     border-radius: 15px;
     overflow: hidden;
     background-color: white;
@@ -125,4 +125,15 @@ main {
     font-size: 0.55rem;
     letter-spacing: .1rem;
     color: var(--clr-primary-500);
+}
+
+@media (min-width: 800px) {
+    body {
+        background-size: 100vw 150vh, 100vw 250vh;
+        background-position: -50vw -70vh, 35vw 50vh;
+    }
+    
+    .card__header {
+        height: 11rem;
+    }
 }
