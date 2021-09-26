@@ -66,10 +66,10 @@ main {
     background-image: url(./images/image-victor.jpg);
     background-size: cover;
     background-position: center;
-    box-shadow: 0 0 0 6px white;
     width: 5rem;
     aspect-ratio: 1;
     border-radius: 50%;
+    box-shadow: 0 0 0 6px white;
 }
 
 .card__horiz {
@@ -97,7 +97,6 @@ main {
     color: var(--clr-primary-500);
     margin-block: .25rem 1.25rem;
 }
-
 
 .card__stats {
     display: flex;
