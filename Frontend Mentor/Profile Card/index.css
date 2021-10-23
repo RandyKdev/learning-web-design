@@ -23,6 +23,15 @@ body *, body *::before, body *::after {
     display: block;
 }
 
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 body {
     background-color: var(--clr-primary-300);
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);

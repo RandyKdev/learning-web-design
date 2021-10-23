@@ -58,8 +58,7 @@ body {
     position: absolute;
     inset: 0;
     background-color: var(--clr-accent);
-    opacity: .4;
-    border-radius: 5px 5px 0 0;
+    mix-blend-mode: multiply;
 }
 
 .card__content {
