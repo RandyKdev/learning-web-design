@@ -38,7 +38,7 @@ Mobile Screenshot (375 x 1530)
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-design-using-just-html-and-css-8NA9HGSlF/](https://www.frontendmentor.io/solutions/mobile-first-design-using-just-html-and-css-8NA9HGSlF/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-mobile-first-webpage-built-with-just-html-and-css-_F10P9XmO](https://www.frontendmentor.io/solutions/responsive-mobile-first-webpage-built-with-just-html-and-css-_F10P9XmO)
 - Live Site URL: [https://randykdev.github.io/learning-web-design/Frontend%20Mentor/Social%20Proof%20Section/](https://randykdev.github.io/learning-web-design/Frontend%20Mentor/Social%20Proof%20Section/)
 
 ## My process
