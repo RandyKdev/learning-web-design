@@ -35,7 +35,7 @@ body {
   place-items: center;
   min-height: 100vh;
 
-  padding: 4.5rem;
+  padding: clamp(1rem, 7vw, 4.5rem);
   background-color: var(--clr-violet);
   background-image: url(./images/bg-mobile.svg);
   background-repeat: no-repeat;
@@ -54,8 +54,7 @@ main {
 }
 
 .logo {
-  width: auto;
-  max-width: 100%;
+  width: min(50vw, 264px);
 }
 
 .center {
@@ -81,7 +80,7 @@ main {
 }
 
 .btn {
-  padding: 1.5rem;
+  padding: min(5vw, 1.5rem);
   margin-block-start: 1rem;
   max-width: 25rem;
   width: 100%;
@@ -89,7 +88,7 @@ main {
   border: none;
   align-self: center;
   color: var(--clr-violet);
-  font-size: 1.4rem;
+  font-size: min(4vw, 1.4rem);
 }
 
 .btn:hover {
