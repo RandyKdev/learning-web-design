@@ -34,7 +34,6 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-
   padding: clamp(1rem, 7vw, 4.5rem);
   background-color: var(--clr-violet);
   background-image: url(./images/bg-mobile.svg);
@@ -51,6 +50,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 6rem;
+  max-width: 915px;
 }
 
 .logo {
@@ -113,4 +113,56 @@ main {
   padding: 0.7rem;
   border: 1px solid currentColor;
   border-radius: 50%;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    padding: 3rem 4.5rem;
+  }
+
+  main {
+    gap: 0;
+    max-width: none;
+  }
+
+  .logo {
+    margin-block-end: 5rem;
+  }
+
+  .center {
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .illustration {
+    width: 100%;
+  }
+
+  .main-content {
+    margin-block: 3rem;
+    text-align: left;
+    width: 57rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .desc {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    align-self: flex-start;
+    max-width: 12rem;
+    margin-block-start: 0;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .socials {
+    justify-content: flex-end;
+  }
 }
