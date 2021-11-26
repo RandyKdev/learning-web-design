@@ -30,11 +30,13 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
+
+    padding: 4.5rem;
     background-color: var(--clr-violet);
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100vw 45.5vh;
+    background-size: 100vw 730px;
 }
 
 img {
@@ -42,7 +44,6 @@ img {
 }
 
 main {
-    padding: 4.5rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
