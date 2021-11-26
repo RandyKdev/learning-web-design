@@ -27,7 +27,14 @@ body *, body *::after, body *::before {
 }
 
 body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
     background-color: var(--clr-violet);
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100vw 45.5vh;
 }
 
 img {
@@ -35,7 +42,7 @@ img {
 }
 
 main {
-    padding: 4rem;
+    padding: 4.5rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
@@ -49,7 +56,7 @@ main {
 .center {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    gap: 7rem;
 }
 
 .main-content {
@@ -62,11 +69,10 @@ main {
 .title {
     font-size: 3.1rem;
     font-family: var(--ff-poppins);
-    /* line-height: 3.5rem; */
 }
 
 .desc {
-    font-size: 2.05rem;
+    font-size: 2rem;
 }
 
 .btn {
@@ -81,14 +87,26 @@ main {
     font-size: 1.4rem;
 }
 
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--clr-soft-magenta);
+    color: white;
+}
+
 .socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
+.social-link:hover .social-icon {
+    color: var(--clr-soft-magenta);
+}
+
 .social-icon {
-    width: 60px;
     color: white;
-    /* background-color: white; */ 
+    font-size: 20px;
+    padding: .7rem;
+    border: 1px solid currentColor;
+    border-radius: 50%; 
 }
