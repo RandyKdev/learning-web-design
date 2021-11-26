@@ -1,114 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 :root {
-    --clr-violet: hsl(257, 40%, 49%);
-    --clr-soft-magenta: hsl(300, 69%, 71%);
+  --clr-violet: hsl(257, 40%, 49%);
+  --clr-soft-magenta: hsl(300, 69%, 71%);
 
-    --fw-bold: 600;
-    --fw-normal: 400;
+  --fw-bold: 600;
+  --fw-normal: 400;
 
-    --ff-poppins: 'Poppins';
-    --ff-body: 'Open Sans';
+  --ff-poppins: "Poppins";
+  --ff-body: "Open Sans";
 
-    font-family: var(--ff-body), sans-serif;
-    font-weight: var(--fw-normal);
-    color: white;
+  font-family: var(--ff-body), sans-serif;
+  font-weight: var(--fw-normal);
+  color: white;
 }
 
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body *, body *::after, body *::before {
-    display: block;
+body *,
+body *::after,
+body *::before {
+  display: block;
 }
 
 body {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 
-    
-    background-color: var(--clr-violet);
-    background-image: url(./images/bg-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100vw 730px;
+  padding: 4.5rem;
+  background-color: var(--clr-violet);
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100vw 730px;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 main {
-    display: flex;
-    padding: 4.5rem;
-    flex-direction: column;
-    gap: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
 }
 
 .logo {
-    width: auto;
-    max-width: 100%;
+  width: auto;
+  max-width: 100%;
 }
 
 .center {
-    display: flex;
-    flex-direction: column;
-    gap: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
 }
 
 .title {
-    font-size: 3.1rem;
-    font-family: var(--ff-poppins);
+  font-size: min(7vw, 3.1rem);
+  font-family: var(--ff-poppins);
 }
 
 .desc {
-    font-size: 2rem;
+  font-size: min(5vw, 2rem);
 }
 
 .btn {
-    padding: 1.5rem;
-    margin-block-start: 1rem;
-    max-width: 25rem;
-    width: 100%;
-    border-radius: 10rem;
-    border: none;
-    align-self: center;
-    color: var(--clr-violet);
-    font-size: 1.4rem;
+  padding: 1.5rem;
+  margin-block-start: 1rem;
+  max-width: 25rem;
+  width: 100%;
+  border-radius: 10rem;
+  border: none;
+  align-self: center;
+  color: var(--clr-violet);
+  font-size: 1.4rem;
 }
 
 .btn:hover {
-    cursor: pointer;
-    background-color: var(--clr-soft-magenta);
-    color: white;
+  cursor: pointer;
+  background-color: var(--clr-soft-magenta);
+  color: white;
 }
 
 .socials {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .social-link:hover .social-icon {
-    color: var(--clr-soft-magenta);
+  color: var(--clr-soft-magenta);
 }
 
 .social-icon {
-    color: white;
-    font-size: 20px;
-    padding: .7rem;
-    border: 1px solid currentColor;
-    border-radius: 50%; 
+  color: white;
+  font-size: 20px;
+  padding: 0.7rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
 }
