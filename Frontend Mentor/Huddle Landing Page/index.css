@@ -29,9 +29,8 @@ body *, body *::after, body *::before {
 body {
     display: grid;
     place-items: center;
+    padding: 4.5rem;
     min-height: 100vh;
-
-    
     background-color: var(--clr-violet);
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat;
@@ -45,7 +44,6 @@ img {
 
 main {
     display: flex;
-    padding: 4.5rem;
     flex-direction: column;
     gap: 6rem;
 }
@@ -69,8 +67,9 @@ main {
 }
 
 .title {
-    font-size: 3.1rem;
+    font-size: 200vw;
     font-family: var(--ff-poppins);
+    color: red;
 }
 
 .desc {
