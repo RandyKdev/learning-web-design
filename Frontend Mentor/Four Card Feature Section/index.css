@@ -1,165 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --clr-pr-red: hsl(0, 78%, 62%);
-    --clr-pr-cyan: hsl(180, 62%, 55%);
-    --clr-pr-orange: hsl(34, 97%, 64%);
-    --clr-pr-blue: hsl(212, 86%, 64%);
+  --clr-pr-red: hsl(0, 78%, 62%);
+  --clr-pr-cyan: hsl(180, 62%, 55%);
+  --clr-pr-orange: hsl(34, 97%, 64%);
+  --clr-pr-blue: hsl(212, 86%, 64%);
 
-    --clr-ntrl-blue-900: hsl(234, 12%, 34%);
-    --clr-ntrl-blue-300: hsl(229, 6%, 66%);
-    --clr-ntrl-grey-100: hsl(0, 0%, 98%);
+  --clr-ntrl-blue-900: hsl(234, 12%, 34%);
+  --clr-ntrl-blue-300: hsl(229, 6%, 66%);
+  --clr-ntrl-grey-100: hsl(0, 0%, 98%);
 
-    --fw-regular: 200;
-    --fw-medium: 400;
-    --fw-bold: 600;
+  --fw-regular: 200;
+  --fw-medium: 400;
+  --fw-bold: 600;
 
-    font-weight: var(--fw-regular);
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+  font-weight: var(--fw-regular);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
 }
 
-*, *::after, *::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body *, body *::before, body *::after {
-    display: block;
+body *,
+body *::before,
+body *::after {
+  display: block;
 }
 
 body {
-    background-color: var(--clr-ntrl-grey-100);
-}
-
-main {
-    padding: 1.5rem 2rem;
-    display: grid;
-    place-items: center;
+  background-color: var(--clr-ntrl-grey-100);
+  padding: 1.5rem 2rem;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
 }
 
 .title {
-    text-align: center;
-    font-weight: var(--fw-medium);
-    color: var(--clr-ntrl-blue-300);
-     font-size: 1.6rem;
+  text-align: center;
+  font-weight: var(--fw-medium);
+  color: var(--clr-ntrl-blue-300);
+  font-size: 1.6rem;
 }
 
 .title-bold {
-    font-weight: var(--fw-bold);
-    color: var(--clr-ntrl-blue-900);
+  font-weight: var(--fw-bold);
+  color: var(--clr-ntrl-blue-900);
 }
 
 .description {
-    margin-block: 1rem;
-    text-align: center;
-    font-weight: var(--fw-medium);
-    color: var(--clr-ntrl-blue-300);
+  margin-block: 1rem;
+  margin-inline: auto;
+  text-align: center;
+  font-weight: var(--fw-medium);
+  color: var(--clr-ntrl-blue-300);
 }
 
 .cards {
-    margin-block-start: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  margin-block-start: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    gap: .3rem;
-    border-radius: 10px;
-    padding: 1.5rem 2rem;
-    overflow: hidden;
-    
-    box-shadow: 0 15px 15px 0 lightgray;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  overflow: hidden;
+
+  box-shadow: 0 15px 15px 0 lightgray;
+  position: relative;
 }
 
 .card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3.1px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.1px;
 }
 
 .card--cyan::after {
-    background-color: var(--clr-pr-cyan);
+  background-color: var(--clr-pr-cyan);
 }
 
 .card--blue::after {
-    background-color: var(--clr-pr-blue);
+  background-color: var(--clr-pr-blue);
 }
 
 .card--orange::after {
-    background-color: var(--clr-pr-orange);
+  background-color: var(--clr-pr-orange);
 }
 
 .card--red::after {
-    background-color: var(--clr-pr-red);
+  background-color: var(--clr-pr-red);
 }
 
 .card-title {
-    font-size: 1.45rem;
-    color: var(--clr-ntrl-blue-900);
+  font-size: 1.45rem;
+  color: var(--clr-ntrl-blue-900);
 }
 
 .card-description {
-    font-size: 0.9rem;
-    color: var(--clr-ntrl-blue-300);
+  font-size: 0.9rem;
+  color: var(--clr-ntrl-blue-300);
 }
 
 .card-img {
-    width: 45px;
-    aspect-ratio: 1;
-    align-self: flex-end;
-    margin-block-start: 1.5rem;
+  width: 45px;
+  aspect-ratio: 1;
+  align-self: flex-end;
+  margin-block-start: 1.5rem;
 }
 
-@media(min-width: 1000px) {
-    
-    main{
-        padding:5rem;
-    }
+@media (min-width: 1000px) {
+  main {
+    padding: 5rem;
+  }
 
-    .description{
-        width: 40%;
-    }
+  .description {
+    width: 40%;
+  }
 
-     .cards{
-        display: grid;
-        place-items: center;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-              "left top right"
-              "left top right"
-              "left bottom right"
-              "left bottom right";
-    }
-    
-    .card{
-        width:23rem;
-        height:15rem;
-    }
-    
-    .card--cyan{
-grid-area: left;
+  .cards {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "left top right"
+      "left top right"
+      "left bottom right"
+      "left bottom right";
+  }
 
-    }
+  .card {
+    width: 23rem;
+    height: 15rem;
+  }
 
-    .card--red{
-grid-area: top;
-    }
+  .card--cyan {
+    grid-area: left;
+  }
 
-    .card--blue{
-grid-area:right;
-    }
+  .card--red {
+    grid-area: top;
+  }
 
-    .card--orange{
-grid-area: bottom;
-    }
+  .card--blue {
+    grid-area: right;
+  }
+
+  .card--orange {
+    grid-area: bottom;
+  }
 }
