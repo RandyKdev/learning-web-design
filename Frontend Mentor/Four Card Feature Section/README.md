@@ -1,6 +1,6 @@
 # Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -13,7 +13,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-
 
 ## Overview
 
@@ -37,7 +36,7 @@ Mobile Screenshot (375 x 1360)
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-design-using-just-html-and-css-8NA9HGSlF/](https://www.frontendmentor.io/solutions/mobile-first-design-using-just-html-and-css-8NA9HGSlF/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-page-with-css-and-html-CVRno-0es](https://www.frontendmentor.io/solutions/responsive-page-with-css-and-html-CVRno-0es)
 - Live Site URL: [https://randykdev.github.io/learning-web-design/Frontend%20Mentor/Four%20Card%20Feature%20Section/](https://randykdev.github.io/learning-web-design/Frontend%20Mentor/Four%20Card%20Feature%20Section/)
 
 ## My process
@@ -52,7 +51,7 @@ Mobile Screenshot (375 x 1360)
 
 ### What I learned
 
-- 
+-
 
 ### Continued development
 
